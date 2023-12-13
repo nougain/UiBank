@@ -1,0 +1,116 @@
+{
+  "name": "UiBank Car Loan Test Automation Project",
+  "projectId": "2ce06dbf-ccb5-447a-a657-f141431af007",
+  "description": "UiBank Car Loan (Test Automation Project)",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[23.10.3]",
+    "UiPath.Testing.Activities": "[23.10.0]",
+    "UiPath.UIAutomation.Activities": "[23.10.8]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "1.0.6",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "templateType": "TestCase",
+        "fileName": ".templates\\TC01CreateLoanVolumeLowTemplate.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "06066a74-3170-49e0-9048-a89691bdea8c",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases-UiBank-CreateLoan\\UiBank-CreateLoan-TC01-VolumeLow.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ac71e442-b3bb-496e-9409-7d306add1bde",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases-UiBank-CreateLoan\\UiBank-CreateLoan-TC02-VolumeMedium.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c93ebafb-2ece-4455-875f-6100dace283c",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases-UiBank-CreateLoan\\UiBank-CreateLoan-TC03-VolumeHigh.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b06f61d2-aaa9-4535-a76c-1d55a098c705",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases-UiBank-CreateLoan\\UiBank-CreateLoan-TC04-TermShort.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "75a71378-abae-4a25-a0b6-f0bbe886a5a8",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases-UiBank-CreateLoan\\UiBank-CreateLoan-TC05-TermLong.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "802e7bc3-0769-479e-96db-d50d084c1664",
+        "dataVariationFilePath": ".variations\\LoanQuotes-TestData_Loan Quotes.json",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases-UiBank-CreateLoan\\UiBank-CreateLoan-TC11-DATADRIVEN.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e7f192bf-e06b-43d4-9ebb-d266f1ca0714",
+        "dataVariationFilePath": ".variations\\LoanQuotes-CoverageCases-TestData_LoanCases.json",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases-CreateLoanCases-DataDriven\\CreateLoanCases-TC01-Coverage-DATADRIVEN.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "be64c0a0-a1c4-4367-a03e-ee750b0caa7f",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases-UiBank-CreateLoan\\UiBank-CreateLoan-TC06-TermLong-TOFAIL.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0f08f8dd-ccd4-4012-a552-565f329b2755",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases-UiBank-CreateLoan\\UiBank-CreateLoan-TC07-TermLong-VerifyExpressionProperties.xaml"
+      }
+    ],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": ".package/MyLogo4-256x256 - Robot.png"
+  },
+  "targetFramework": "Windows"
+}

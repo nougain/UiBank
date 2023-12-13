@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/orgrcn/India/testmanager_/",
+  "defaultProject": {
+    "id": "eb1b50d1-9e2a-0000-6229-0b462b7fc9a5",
+    "name": "FirstTMProject",
+    "key": "FTMP"
+  }
+}
